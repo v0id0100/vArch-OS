@@ -394,13 +394,14 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting      "$ZSH_CUSTOM
 # Copy config directories from repo
 git clone https://github.com/v0id0100/vArch-OS.git /tmp/vArch-OS-install
 cd "/tmp/vArch-OS-install/Files needed"
+git checkout v0id0100_v1
 cp -r .config "$HOME_DIR"
 cp -r .icons  "$HOME_DIR"
 cp -r .local  "$HOME_DIR"
 
 # Download individual files (overwrites whatever oh-my-zsh created)
-curl -sL https://raw.githubusercontent.com/v0id0100/vArch-OS/refs/heads/main/Files%20needed/.zshrc    -o "$HOME_DIR/.zshrc"
-curl -sL https://raw.githubusercontent.com/v0id0100/vArch-OS/refs/heads/main/Files%20needed/.gtkrc-2.0 -o "$HOME_DIR/.gtkrc-2.0"
+curl -sL https://raw.githubusercontent.com/v0id0100/vArch-OS/refs/heads/v0id0100_v1/Files%20needed/.zshrc    -o "$HOME_DIR/.zshrc"
+curl -sL https://raw.githubusercontent.com/v0id0100/vArch-OS/refs/heads/v0id0100_v1/Files%20needed/.gtkrc-2.0 -o "$HOME_DIR/.gtkrc-2.0"
 
 # FIX PERMISSIONS (Crucial: If skipped, the graphical desktop environment will fail on boot)
 chown -R "$USER":"$USER" "$HOME_DIR"
@@ -414,10 +415,10 @@ cat << 'FILE_EOF' > /etc/os-release
 NAME="vArch-OS"
 PRETTY_NAME="vArch-OS"
 ID=vArch-OS
-BUILD_ID=goat
+BUILD_ID=v0id0100_v1
 ANSI_COLOR="38;2;23;147;209"
 HOME_URL="https://github.com/v0id0100/vArch-OS"
-DOCUMENTATION_URL="https://github.com/v0id0100/vArch-OS"
+DOCUMENTATION_URL="https://github.com/v0id0100/vArch-OS/tree/v0id0100_v1"
 SUPPORT_URL="https://github.com/v0id0100/vArch-OS/issues"
 BUG_REPORT_URL="https://gitlab.archlinux.org/groups/archlinux/-/issues"
 PRIVACY_POLICY_URL="https://terms.archlinux.org/docs/privacy-policy/"
