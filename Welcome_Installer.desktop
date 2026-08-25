@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=vArch-OS installer
+Comment=Starts installing vArch-OS in your device
+Icon=/usr/local/vArch-OS.png
+Exec=konsole -e sudo /usr/local/bin/Welcome_Installer.sh
+Terminal=false
+Categories=System;

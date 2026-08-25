@@ -1,0 +1,19 @@
+[Desktop Entry]
+Categories=Network
+Exec=firefox --class=wah-gQIOr02R --name=wah-gQIOr02R --profile=/home/vArch/.var/app/org.pvermeer.WebAppHub/data/web-app-hub/profiles/firefox/gQIOr02R --no-remote https://www.primevideo.com
+Icon=/home/vArch/.var/app/org.pvermeer.WebAppHub/data/web-app-hub/icons/gQIOr02R.png
+Name=Prime Video
+StartupWMClass=wah-gQIOr02R
+Terminal=false
+Type=Application
+Version=1.0
+X-MultipleArgs=false
+X-WAH=true
+X-WAH-BROWSER-ID=firefox_firefox
+X-WAH-ID=gQIOr02R
+X-WAH-ISOLATE=true
+X-WAH-MAXIMIZE=false
+X-WAH-PROFILE=/home/vArch/.var/app/org.pvermeer.WebAppHub/data/web-app-hub/profiles/firefox/gQIOr02R
+X-WAH-URL=https://www.primevideo.com
+X-WAH-VERSION=1.0.1
+

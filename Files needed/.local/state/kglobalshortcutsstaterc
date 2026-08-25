@@ -1,0 +1,317 @@
+[$General]
+LastSerial=291
+
+[ActivityManager]
+switch-to-activity-3e7ce0e0-1dd4-45b5-a5cf-56cd771828f6=248
+
+[KDE Keyboard Layout Switcher]
+Switch to Last-Used Keyboard Layout=182
+Switch to Next Keyboard Layout=181
+
+[kaccess]
+Toggle Screen Reader On and Off=249
+
+[kmix]
+decrease_microphone_volume=229
+decrease_volume=225
+decrease_volume_small=227
+increase_microphone_volume=228
+increase_volume=224
+increase_volume_small=226
+mic_mute=231
+mute=230
+push_to_talk=232
+
+[ksmserver]
+Halt Without Confirmation=222
+Lock Session=180
+Log Out=217
+Log Out Without Confirmation=221
+LogOut=218
+Reboot=220
+Reboot Without Confirmation=223
+Shut Down=219
+
+[kwin]
+Activate Window Demanding Attention=50
+Cycle Overview=186
+Cycle Overview Opposite=187
+Decrease Opacity=74
+Edit Tiles=190
+Expose=283
+ExposeAll=284
+ExposeClass=285
+ExposeClassCurrentDesktop=286
+Grid View=189
+Increase Opacity=73
+Kill Window=140
+Move Tablet to Next LogicalOutput=183
+MoveMouseToCenter=203
+MoveMouseToFocus=202
+MoveZoomDown=201
+MoveZoomLeft=198
+MoveZoomRight=199
+MoveZoomUp=200
+Overview=188
+Setup Window Shortcut=51
+Show Desktop=139
+Switch One Desktop Down=179
+Switch One Desktop Up=178
+Switch One Desktop to the Left=177
+Switch One Desktop to the Right=176
+Switch Window Down=70
+Switch Window Left=72
+Switch Window Right=71
+Switch Window Up=69
+Switch to Desktop 1=149
+Switch to Desktop 10=158
+Switch to Desktop 11=159
+Switch to Desktop 12=160
+Switch to Desktop 13=161
+Switch to Desktop 14=162
+Switch to Desktop 15=163
+Switch to Desktop 16=164
+Switch to Desktop 17=165
+Switch to Desktop 18=166
+Switch to Desktop 19=167
+Switch to Desktop 2=150
+Switch to Desktop 20=168
+Switch to Desktop 21=169
+Switch to Desktop 22=170
+Switch to Desktop 23=171
+Switch to Desktop 24=172
+Switch to Desktop 25=173
+Switch to Desktop 3=151
+Switch to Desktop 4=152
+Switch to Desktop 5=153
+Switch to Desktop 6=154
+Switch to Desktop 7=155
+Switch to Desktop 8=156
+Switch to Desktop 9=157
+Switch to Next Desktop=174
+Switch to Next Screen=133
+Switch to Previous Desktop=175
+Switch to Previous Screen=134
+Switch to Screen 0=125
+Switch to Screen 1=126
+Switch to Screen 2=127
+Switch to Screen 3=128
+Switch to Screen 4=129
+Switch to Screen 5=130
+Switch to Screen 6=131
+Switch to Screen 7=132
+Switch to Screen Above=137
+Switch to Screen Below=138
+Switch to Screen to the Left=136
+Switch to Screen to the Right=135
+Toggle Night Color=184
+Toggle Window Raise/Lower=45
+Walk Through Windows=141
+Walk Through Windows (Reverse)=142
+Walk Through Windows Alternative=145
+Walk Through Windows Alternative (Reverse)=146
+Walk Through Windows of Current Application=143
+Walk Through Windows of Current Application (Reverse)=144
+Walk Through Windows of Current Application Alternative=147
+Walk Through Windows of Current Application Alternative (Reverse)=148
+Window Above Other Windows=48
+Window Below Other Windows=49
+Window Close=35
+Window Custom Quick Tile Bottom=79
+Window Custom Quick Tile Left=76
+Window Custom Quick Tile Right=77
+Window Custom Quick Tile Top=78
+Window Fullscreen=46
+Window Grow Horizontal=57
+Window Grow Vertical=58
+Window Lower=44
+Window Maximize=36
+Window Maximize Horizontal=38
+Window Maximize Vertical=37
+Window Minimize=40
+Window Move=41
+Window Move Center=52
+Window No Border=47
+Window On All Desktops=75
+Window One Desktop Down=110
+Window One Desktop Up=109
+Window One Desktop to the Left=108
+Window One Desktop to the Right=107
+Window One Screen Down=124
+Window One Screen Up=123
+Window One Screen to the Left=122
+Window One Screen to the Right=121
+Window Operations Menu=34
+Window Pack Down=56
+Window Pack Left=54
+Window Pack Right=53
+Window Pack Up=55
+Window Quick Tile Bottom=64
+Window Quick Tile Bottom Left=66
+Window Quick Tile Bottom Right=68
+Window Quick Tile Left=61
+Window Quick Tile Right=62
+Window Quick Tile Top=63
+Window Quick Tile Top Left=65
+Window Quick Tile Top Right=67
+Window Raise=43
+Window Resize=42
+Window Restore=39
+Window Shrink Horizontal=59
+Window Shrink Vertical=60
+Window to Desktop 1=80
+Window to Desktop 10=89
+Window to Desktop 11=90
+Window to Desktop 12=91
+Window to Desktop 13=92
+Window to Desktop 14=93
+Window to Desktop 15=94
+Window to Desktop 16=95
+Window to Desktop 17=96
+Window to Desktop 18=97
+Window to Desktop 19=98
+Window to Desktop 2=81
+Window to Desktop 20=99
+Window to Desktop 21=100
+Window to Desktop 22=101
+Window to Desktop 23=102
+Window to Desktop 24=103
+Window to Desktop 25=104
+Window to Desktop 3=82
+Window to Desktop 4=83
+Window to Desktop 5=84
+Window to Desktop 6=85
+Window to Desktop 7=86
+Window to Desktop 8=87
+Window to Desktop 9=88
+Window to Next Desktop=105
+Window to Next Screen=119
+Window to Previous Desktop=106
+Window to Previous Screen=120
+Window to Screen 0=111
+Window to Screen 1=112
+Window to Screen 2=113
+Window to Screen 3=114
+Window to Screen 4=115
+Window to Screen 5=116
+Window to Screen 6=117
+Window to Screen 7=118
+disableInputCapture=185
+view_actual_size=197
+view_zoom_in=195
+view_zoom_out=196
+
+[mediacontrol]
+mediavolumedown=215
+mediavolumeup=214
+nextmedia=205
+pausemedia=212
+playmedia=213
+playpausemedia=204
+previousmedia=206
+seekbackwardmedia=208
+seekbackwardmedialong=210
+seekforwardmedia=207
+seekforwardmedialong=209
+stopmedia=211
+
+[org_kde_powerdevil]
+Decrease Keyboard Brightness=254
+Decrease Screen Brightness=263
+Decrease Screen Brightness Small=264
+Hibernate=257
+Increase Keyboard Brightness=253
+Increase Screen Brightness=261
+Increase Screen Brightness Small=262
+PowerDown=259
+PowerOff=258
+Sleep=256
+Toggle Keyboard Backlight=255
+Turn Off Screen=260
+powerProfile=252
+
+[plasmashell]
+Slideshow Wallpaper Next Image=289
+activate application launcher=233
+activate task manager entry 1=237
+activate task manager entry 10=246
+activate task manager entry 2=238
+activate task manager entry 3=239
+activate task manager entry 4=240
+activate task manager entry 5=241
+activate task manager entry 6=242
+activate task manager entry 7=243
+activate task manager entry 8=244
+activate task manager entry 9=245
+activate widget 55=290
+activate widget 90=291
+clear history=274
+clear-history=276
+clipboard_action=275
+cycle-panels=247
+cycleNextAction=280
+cyclePrevAction=281
+edit_clipboard=278
+manage activities=234
+next activity=287
+previous activity=288
+repeat_action=277
+show dashboard=216
+show-barcode=279
+show-on-mouse-pos=282
+switch to next activity=236
+switch to previous activity=235
+toggle do not disturb=273
+
+[services][org.kde.dolphin.desktop]
+_launch=11
+
+[services][org.kde.kcalc.desktop]
+_launch=30
+
+[services][org.kde.konsole.desktop]
+NewTab=32
+NewWindow=31
+_launch=33
+
+[services][org.kde.krunner.desktop]
+RunClipboard=27
+_launch=28
+
+[services][org.kde.kscreen.desktop]
+ShowOSD=21
+
+[services][org.kde.plasma-systemmonitor.desktop]
+_launch=26
+applications=25
+history=23
+overview=22
+processes=24
+
+[services][org.kde.plasma.emojier.desktop]
+_launch=29
+
+[services][org.kde.spectacle.desktop]
+ActiveWindowScreenShot=3
+CurrentMonitorScreenShot=2
+FullScreenScreenShot=1
+OpenWithoutScreenshot=9
+RecordRegion=6
+RecordScreen=7
+RecordWindow=8
+RectangularRegionScreenShot=4
+WindowUnderCursorScreenShot=5
+_launch=10
+
+[services][org.kde.touchpadshortcuts.desktop]
+DisableTouchpad=13
+EnableTouchpad=12
+ToggleTouchpad=14
+
+[services][systemsettings.desktop]
+_launch=20
+kcm-kscreen=19
+kcm-lookandfeel=15
+kcm-powerdevilprofilesconfig=18
+kcm-screenlocker=17
+kcm-users=16

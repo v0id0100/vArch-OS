@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info">
+  <bookmark href="file:///home/vArch/Escritorio/script.sh" added="2026-06-22T20:29:58.926000Z" modified="2026-06-22T20:29:58.926000Z" visited="2026-06-22T20:29:58.926000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.kate" exec="kate -b %u" modified="2026-06-22T20:29:58.926000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="trash:/" added="2026-06-22T21:49:08.669000Z" modified="2026-08-22T13:59:29.800000Z" visited="2026-08-22T13:59:29.800000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.dolphin" exec="dolphin %u" modified="2026-08-22T13:59:29.800000Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>
