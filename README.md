@@ -10,7 +10,8 @@
 
 ![Desktop](./images/.image-15.png)
 
-[Desktop preview (video)](https://github.com/user-attachments/assets/bdee2706-19a4-4a37-91fe-6898a61d9dc5)
+[git _video.webm](https://github.com/user-attachments/assets/1a83561e-82b3-4488-b605-fc1237595e3e)
+
 
 ---
 
