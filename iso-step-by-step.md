@@ -148,6 +148,13 @@ PRIVACY_POLICY_URL="https://terms.archlinux.org/docs/privacy-policy/"
 LOGO=/usr/local/vArch-OS.png
 ```
 
+To change the entrance Welcome:
+```bash
+vim efiboot/loader/entries/0*-archiso-linux.conf
+```
+
+And update the title
+
 ### Doing the installer:
 
 For the graphic interface I have to download the files from somewhere:
