@@ -79,11 +79,11 @@ cd /tmp
 git clone https://github.com/v0id0100/vArch-OS.git
 cd vArch-OS/Files\ needed
 
-rm -rf ~/vArch-OS/airootfs/root/.{config,icons,local,oh-my-zsh,gtkrc-2.0}
+rm -rf ~/vArch-OS/airootfs/root/.{config,icons,local,gtkrc-2.0}
 
 cp -r . ~/vArch-OS/airootfs/root/
 
-cp -r .{config,icons,local,gtkrc-2.0,oh-my-zsh} ~/vArch-OS/airootfs/root/
+cp -r .{config,icons,local,gtkrc-2.0} ~/vArch-OS/airootfs/root/
 ```
 
 ### Autologin at the beginning:
