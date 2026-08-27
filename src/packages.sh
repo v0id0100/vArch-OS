@@ -7,7 +7,7 @@ else
     SUDO=
 fi
 
-${SUDO} pacman -S --noconfirm zsh git thunderbird firefox code virtualbox virtualbox-host-dkms timeshift proton-vpn-gtk-app plasma-meta plasma-login-manager base-devel cmake extra-cmake-modules kwin kconfig kconfigwidgets kcmutils kcoreaddons kwindowsystem qt6-base libdrm vulkan-headers
+${SUDO} pacman -S --noconfirm zsh git thunderbird firefox code virtualbox virtualbox-host-dkms timeshift proton-vpn-gtk-app plasma-meta plasma-login-manager base-devel cmake extra-cmake-modules kwin kconfig kconfigwidgets kcmutils kcoreaddons kwindowsystem qt6-base libdrm vulkan-headers oxygen kdeconnect noto-fonts
 ${SUDO} pacman -Rns --noconfirm falkon || true
 
 # Install Oh My Zsh without an interactive prompt if not already installed
