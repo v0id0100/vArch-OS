@@ -365,7 +365,7 @@ EOF
 
 ### Additional packages:
 arch-chroot /mnt /usr/bin/env username="$username" /bin/bash << 'EOF'
-curl -o /tmp/packages.sh https://raw.githubusercontent.com/v0id0100/vArch-OS/refs/heads/main/src/packages.sh
+curl -o /tmp/packages.sh https://raw.githubusercontent.com/v0id0100/vArch-OS/refs/heads/v0id0100_v1/src/packages.sh
 chmod +x /tmp/packages.sh
 bash /tmp/packages.sh
 rm -f /tmp/packages.sh
@@ -394,7 +394,6 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting      "$ZSH_CUSTOM
 # Copy config directories from repo
 git clone https://github.com/v0id0100/vArch-OS.git /tmp/vArch-OS-install
 cd "/tmp/vArch-OS-install/Files needed"
-git checkout v0id0100_v1
 cp -r .config "$HOME_DIR"
 cp -r .icons  "$HOME_DIR"
 cp -r .local  "$HOME_DIR"
