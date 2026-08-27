@@ -224,6 +224,7 @@ locale="${locale:-$DEFAULT_LOCALE}"
 
 arch-chroot /mnt /usr/bin/env locale="$locale" /bin/bash << 'EOF'
 echo "$locale UTF-8" >> /etc/locale.gen
+echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen
 echo "LANG=$locale" > /etc/locale.conf
 EOF
 
@@ -269,7 +270,7 @@ EOF
 ### Creating user account:
 echo "Creating user account '$username'..."
 arch-chroot /mnt /usr/bin/env username="$username" password="$password" /bin/bash << 'EOF'
-useradd -m -G wheel -s /bin/zsh "$username"
+useradd -m -G wheel,video,render -s /bin/zsh "$username"
 echo "$username:$password" | chpasswd
 EOF
 

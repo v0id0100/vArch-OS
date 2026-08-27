@@ -4,7 +4,7 @@ Number=1
 Rows=1
 
 [Plugins]
-libkwin4_effect_yetanothermagiclampEnabled=true
+libkwin4_effect_yetanothermagiclampEnabled=false
 magiclampEnabled=true
 squashEnabled=false
 
@@ -20,4 +20,5 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 Scale=1
 
 [org.kde.kdecoration2]
-library=org.kde.kwin.aurorae.v2
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__WhiteSur-dark

@@ -2,7 +2,6 @@
 
 Here I will explain the step by step making the ISO file.
 
-The entire ISO configuration is: [ISO Receipt](./ISO_Receipt/vArch-OS)
 
 If you just want to copy and compile go to: [ISO Compiling](#iso-compiling)
 
@@ -202,7 +201,6 @@ Here you have to set all the folders and files you set:
 ```text
 ["/usr/local/bin/Welcome_Installer.sh"]="0:0:0755"
 ["/usr/local/vArch-OS.png"]="0:0:0644"
-["/etc/systemd/system/display-manager.service"]="0:0:0755"
 ["/etc/plasmalogin.conf.d/autologin.conf"]="0:0:0644"
 ["/etc/os-release"]="0:0:0644"
 ["/root"]="0:0:0755"
