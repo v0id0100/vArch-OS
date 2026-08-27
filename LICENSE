@@ -1,0 +1,82 @@
+vArch-OS Custom Open License
+Copyright (c) 2024-2026 v0id0100
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to use,
+study, copy, modify, merge, publish, and distribute the Software, subject to
+the following conditions:
+
+────────────────────────────────────────────────────────────────────────────────
+1. ATTRIBUTION
+────────────────────────────────────────────────────────────────────────────────
+Any fork, derivative work, or redistribution — whether modified or unmodified —
+must include clear attribution to the original author:
+
+    Original author: v0id0100
+    Original project: vArch-OS (https://github.com/v0id0100/vArch-OS)
+
+In version-controlled repositories, v0id0100 must appear as a contributor in
+the default (main) branch of the derivative project.
+
+────────────────────────────────────────────────────────────────────────────────
+2. COPYLEFT — DERIVATIVE WORKS MUST REMAIN FREE
+────────────────────────────────────────────────────────────────────────────────
+Any modified version or derivative work based on this Software must be released
+under an open-source license that grants users the same freedoms described in
+this license (use, study, modify, distribute). Proprietary relicensing of
+unmodified copies is not permitted.
+
+Derivative works may adopt a different open-source license, provided that:
+  a) The attribution requirements in Section 1 are preserved.
+  b) The chosen license does not revoke the freedoms granted by this license.
+
+────────────────────────────────────────────────────────────────────────────────
+3. COMMERCIAL USE
+────────────────────────────────────────────────────────────────────────────────
+  a) INTERNAL USE: The Software may be used freely in commercial environments
+     (e.g., deploying it within a company's own infrastructure) without
+     additional conditions beyond attribution.
+
+  b) SALE OF UNMODIFIED COPIES: Selling verbatim copies of the Software without
+     any meaningful modification is NOT permitted.
+
+  c) SALE OF MODIFIED WORKS: Modified or extended versions of the Software may
+     be sold or offered commercially, provided that:
+       - Attribution to v0id0100 is clearly visible (Section 1).
+       - The source code of the modifications is made publicly available under
+         an open-source license (Section 2).
+
+────────────────────────────────────────────────────────────────────────────────
+4. PROHIBITED USES
+────────────────────────────────────────────────────────────────────────────────
+The following uses of this Software are strictly prohibited:
+
+  a) Any activity that violates applicable local, national, or international law.
+  b) Distribution of malware, ransomware, spyware, or any other malicious code
+     using this Software as a base or vehicle.
+  c) Impersonating the original author (v0id0100) or misrepresenting the origin
+     of the Software.
+  d) Any use intended to harm individuals, organizations, or systems.
+
+────────────────────────────────────────────────────────────────────────────────
+5. NO WARRANTY
+────────────────────────────────────────────────────────────────────────────────
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY — WHETHER IN AN
+ACTION OF CONTRACT, TORT, OR OTHERWISE — ARISING FROM, OUT OF, OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+USE OF THIS SOFTWARE IS ENTIRELY AT YOUR OWN RISK.
+
+────────────────────────────────────────────────────────────────────────────────
+6. TERMINATION
+────────────────────────────────────────────────────────────────────────────────
+Any violation of the terms above automatically terminates your rights under this
+license. Upon termination, you must cease all use and distribution of the
+Software and any derivative works.
+
+────────────────────────────────────────────────────────────────────────────────
+
+For questions, contact the author via the project repository.
