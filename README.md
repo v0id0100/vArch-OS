@@ -45,15 +45,6 @@ cryptdevice=UUID=<partition-uuid>:cryptroot root=/dev/mapper/cryptroot
 
 The `encrypt` hook must be present in `/etc/mkinitcpio.conf` — the installer handles this automatically when encryption is chosen.
 
-Default credentials (change immediately after install):
-
-| | Default |
-|---|---|
-| LUKS passphrase | `vArch` |
-| Username | `vArch` |
-| User password | `vArch` |
-| Hostname | `vArch` |
-
 → See [step-by-step.md — Encrypt the partition](step-by-step.md#encrypt-the-partition)
 
 ### Other security defaults
@@ -69,7 +60,7 @@ Default credentials (change immediately after install):
 
 ### Option 1 — ISO (Recommended)
 
-Boot the [ISO](./ISO_Receipt/vArch-OS-2026.08.22-x86_64.iso), double-click the **Welcome Installer** icon on the desktop. The installer runs inside Konsole and guides you through:
+Boot the [ISO](https://sourceforge.net/projects/varch-os/files/v0id0100_v1/), then check the file [checksum](#checksum) to verify it's the original file, double-click the **Welcome Installer** icon on the desktop. The installer runs inside Konsole and guides you through:
 
 1. Username and password setup
 2. Internet connection (wired auto-detected, Wi-Fi via `nmcli`)
@@ -148,7 +139,7 @@ New releases ship on separate branches. Each branch corresponds to a specific IS
 
 ## Recomendations
 
-It is recomended to do an update when installing!
+It is recomended to do an update once installed!
 
 ---
 
@@ -156,14 +147,14 @@ It is recomended to do an update when installing!
 
 *(Will be added with each ISO release)*
 
-08/22/2026 Version: v0id0100
+08/26/2026 Version: v0id0100
 
-Checksum256: 
+**Checksum256:** d15bad7955d921b044925caa1fc7ca19360d6ea9a3d6beba59675a33d4b14dd9  vArch-OS-2026.08.26-x86_64.iso
 
 Test it:
 
 ```bash
-sha256sum vArch-OS-2026.08.22-x86_64.iso
+sha256sum vArch-OS-2026.08.26-x86_64.iso
 ```
 
 ## Donations
@@ -171,3 +162,7 @@ sha256sum vArch-OS-2026.08.22-x86_64.iso
 I do this project for the community but I accept donations from BTC:
 
 bc1q4y0zjs4thu5hhpgzk9wzdpudczn3wnsartmzwn
+
+---
+
+<h1 align="center">By v0id0100</h1>
