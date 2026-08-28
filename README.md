@@ -149,14 +149,14 @@ It is recomended to do an update once installed!
 
 *(Will be added with each ISO release)*
 
-08/27/2026 Version: v0id0100
+08/28/2026 Version: v0id0100
 
-**Checksum256:** 59f7936031392838fc48ef3035eb2423eefd11f05062a01be328b404477bfadb  vArch-OS-2026.08.27-x86_64.iso
+**Checksum256:** 6c8302542d800c0f511614cdb4fb0d6ba6c6e13b20127acfd947ec37e76b0e2d  vArch-OS-2026.08.28-x86_64.iso
 
 Test it:
 
 ```bash
-sha256sum vArch-OS-2026.08.27-x86_64.iso
+sha256sum vArch-OS-2026.08.28-x86_64.iso
 ```
 
 ## Donations
