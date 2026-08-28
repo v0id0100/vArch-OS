@@ -104,7 +104,7 @@ Item {
         height: parent.height
         width: parent.width
         fillMode: Image.PreserveAspectCrop
-        source: "../../../../../wallpapers/WhiteSur-dark/contents/images/3840x2160.jpg"
+        source: "../../../../../wallpapers/WhiteSur/contents/images/3840x2160.png"
         opacity: 0.6
     }
 

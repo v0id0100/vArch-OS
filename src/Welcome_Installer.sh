@@ -224,6 +224,7 @@ locale="${locale:-$DEFAULT_LOCALE}"
 
 arch-chroot /mnt /usr/bin/env locale="$locale" /bin/bash << 'EOF'
 echo "$locale UTF-8" >> /etc/locale.gen
+echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen
 echo "LANG=$locale" > /etc/locale.conf
 EOF
 
@@ -269,7 +270,7 @@ EOF
 ### Creating user account:
 echo "Creating user account '$username'..."
 arch-chroot /mnt /usr/bin/env username="$username" password="$password" /bin/bash << 'EOF'
-useradd -m -G wheel -s /bin/zsh "$username"
+useradd -m -G wheel,video,render -s /bin/zsh "$username"
 echo "$username:$password" | chpasswd
 EOF
 
@@ -365,7 +366,7 @@ EOF
 
 ### Additional packages:
 arch-chroot /mnt /usr/bin/env username="$username" /bin/bash << 'EOF'
-curl -o /tmp/packages.sh https://raw.githubusercontent.com/v0id0100/vArch-OS/refs/heads/v0id0100_v1/src/packages.sh
+curl -o /tmp/packages.sh https://raw.githubusercontent.com/v0id0100/vArch-OS/refs/heads/main/src/packages.sh
 chmod +x /tmp/packages.sh
 bash /tmp/packages.sh
 rm -f /tmp/packages.sh
@@ -399,8 +400,8 @@ cp -r .icons  "$HOME_DIR"
 cp -r .local  "$HOME_DIR"
 
 # Download individual files (overwrites whatever oh-my-zsh created)
-curl -sL https://raw.githubusercontent.com/v0id0100/vArch-OS/refs/heads/v0id0100_v1/Files%20needed/.zshrc    -o "$HOME_DIR/.zshrc"
-curl -sL https://raw.githubusercontent.com/v0id0100/vArch-OS/refs/heads/v0id0100_v1/Files%20needed/.gtkrc-2.0 -o "$HOME_DIR/.gtkrc-2.0"
+curl -sL https://raw.githubusercontent.com/v0id0100/vArch-OS/refs/heads/main/Files%20needed/.zshrc    -o "$HOME_DIR/.zshrc"
+curl -sL https://raw.githubusercontent.com/v0id0100/vArch-OS/refs/heads/main/Files%20needed/.gtkrc-2.0 -o "$HOME_DIR/.gtkrc-2.0"
 
 # FIX PERMISSIONS (Crucial: If skipped, the graphical desktop environment will fail on boot)
 chown -R "$USER":"$USER" "$HOME_DIR"
@@ -417,7 +418,7 @@ ID=vArch-OS
 BUILD_ID=v0id0100_v1
 ANSI_COLOR="38;2;23;147;209"
 HOME_URL="https://github.com/v0id0100/vArch-OS"
-DOCUMENTATION_URL="https://github.com/v0id0100/vArch-OS/tree/v0id0100_v1"
+DOCUMENTATION_URL="https://github.com/v0id0100/vArch-OS"
 SUPPORT_URL="https://github.com/v0id0100/vArch-OS/issues"
 BUG_REPORT_URL="https://gitlab.archlinux.org/groups/archlinux/-/issues"
 PRIVACY_POLICY_URL="https://terms.archlinux.org/docs/privacy-policy/"
